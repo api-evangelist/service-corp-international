@@ -1,3 +1,4 @@
+name: Service Corp International
 aid: service-corp-international
 deliveryModel:
   model: unknown
@@ -25,16 +26,67 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/service-corp-international.png
 tags:
   - Fortune 1000
-url: 
-  https://raw.githubusercontent.com/api-evangelist/service-corp-international/refs/heads/main/apis.yml
-modified: '2026-03-24'
+  - Deathcare
+  - Funeral Services
+  - Cemeteries
+  - Cremation
+  - Consumer Services
+url: https://raw.githubusercontent.com/api-evangelist/service-corp-international/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-09-04'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/service-corp-international-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/scicorp
   - type: Website
-    url: https://www.service-corp-international.com
+    url: https://www.sci-corp.com
+  - type: Blog
+    url: https://news.sci-corp.com/news-releases
+  - type: BlogRSS
+    url: https://investors.sci-corp.com/news?pagetemplate=rss
+  - type: PrivacyPolicy
+    url: https://www.sci-corp.com/privacy-policy
+  - type: TermsOfService
+    url: https://www.sci-corp.com/terms-of-service
+  - type: Support
+    url: https://www.sci-corp.com/contact-us
 description: >-
-  Service Corporation International is North America's leading provider of deathcare
-  products and services, owning and operating funeral homes and cemeteries throughout
-  the United States and Canada.
+  Service Corporation International (NYSE: SCI), headquartered in Houston, Texas, is North
+  America's leading provider of deathcare products and services, owning and operating funeral
+  homes and cemeteries across the United States and Canada. SCI markets its network under the
+  Dignity Memorial brand, alongside Neptune Society and National Cremation, and sells funeral
+  and cemetery services on both an at-need and a preneed basis. It publishes no developer
+  program, no API documentation and no machine-readable API contract.
+x-enrichment:
+  date: '2026-09-04'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Service Corporation International sells funeral, cremation and cemetery services through
+    physical locations, not software — developer.sci-corp.com, developers.sci-corp.com,
+    api.sci-corp.com, docs.sci-corp.com and api.dignitymemorial.com are all NXDOMAIN, there is
+    no GitHub organization under any SCI or Dignity Memorial name, and the only /api/ namespace
+    on the brand sites is the one dignitymemorial.com's own robots.txt labels internal.
+  evidence:
+    - url: https://api.sci-corp.com/
+      status: 0
+    - url: https://api.github.com/orgs/sci-corp
+      status: 404
+    - url: https://www.sci-corp.com/.well-known/api-catalog
+      status: 404
+    - url: https://www.sci-corp.com/llms.txt
+      status: 404
+    - url: https://www.dignitymemorial.com/api/v1/openapi.json
+      status: 403
+    - url: https://www.sci-corp.com/robots.txt
+      status: 200
+  checked: '2026-09-04'
