@@ -1,0 +1,7 @@
+---
+title: "SERVICE CORPORATION INTERNATIONAL INCREASES SHARE REPURCHASE AUTHORIZATION"
+url: "https://news.sci-corp.com/2026-06-11-SERVICE-CORPORATION-INTERNATIONAL-INCREASES-SHARE-REPURCHASE-AUTHORIZATION"
+date: "2026-06-11"
+feed_url: "https://news.sci-corp.com/news-releases?pagetemplate=rss"
+---
+

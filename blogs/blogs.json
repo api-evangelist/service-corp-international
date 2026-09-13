@@ -11,8 +11,15 @@
     {
       "source": "https://www.sci-corp.com",
       "error": "HTTPError"
+    },
+    {
+      "source": "https://news.sci-corp.com/news-releases?pagetemplate=rss",
+      "feed_url": "https://news.sci-corp.com/news-releases?pagetemplate=rss",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-09-06T19:17:18Z"
+  "post_count": 5,
+  "fetched": "2026-09-13T13:00:00Z"
 }
