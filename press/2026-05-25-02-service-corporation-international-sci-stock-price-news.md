@@ -1,7 +1,9 @@
 ---
 title: Service Corporation International (SCI) Stock Price, News ...
 url: https://finance.yahoo.com/quote/SCI/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Service Corp. International" press release artificial intelligence'
 position: 2
 source: serpapi-google

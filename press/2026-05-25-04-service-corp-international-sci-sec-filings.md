@@ -1,7 +1,9 @@
 ---
 title: SERVICE CORP INTERNATIONAL (SCI) SEC Filings
 url: https://moneysense.ai/sec-filings/company/sci
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Service Corp. International" press release artificial intelligence'
 position: 4
 source: serpapi-google
